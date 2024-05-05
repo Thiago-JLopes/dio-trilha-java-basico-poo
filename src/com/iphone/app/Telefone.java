@@ -1,7 +1,7 @@
 package com.iphone.app;
 
 public interface Telefone {
-    static void ligar (int numeroTelefone) {
-        System.out.println("Ligando para " + numeroTelefone);
-    }
+    public void ligar (String numeroTelefone);
+    public void atender();
+    public void iniciarCorreioVoz();
 }
